@@ -39,7 +39,7 @@ This project is a fully functional Android GPS mock location app, ready to be op
 ```
 
 ### 2. **Core Features**
-✅ Mock GPS to any coordinate (default: Google HQ)  
+✅ Mock GPS to any coordinate (default: Taipei, Taiwan)  
 ✅ One-tap ON/OFF toggle  
 ✅ Visual feedback with glowing red/green indicator  
 ✅ Runs as foreground service (persistent)  
@@ -153,8 +153,8 @@ gpuemulator/
 ### Change Mock Coordinates
 Edit `LocationMockService.kt`:
 ```kotlin
-private val mockLatitude = 37.4219999   // Your latitude
-private val mockLongitude = -122.0840575 // Your longitude
+private val mockLatitude = 25.002070   // Your latitude
+private val mockLongitude = 121.544402 // Your longitude
 ```
 
 ### Change Schedule

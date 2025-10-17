@@ -188,9 +188,9 @@ The app creates a **fake GPS signal** that tricks other apps into thinking you'r
 
 ### What Location Does It Mock?
 
-By default, it mocks **Google Headquarters**:
-- Latitude: 37.4219999
-- Longitude: -122.0840575
+By default, it mocks **Jingfeng St, Taipei**:
+- Latitude: 25.002070
+- Longitude: 121.544402
 
 ### Can I Change the Location?
 

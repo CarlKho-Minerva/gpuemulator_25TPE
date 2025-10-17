@@ -13,7 +13,7 @@ This Android app provides GPS mock location functionality with the following fea
 
 ### 2. **GPS Mock Location Service** ✓
 - Foreground service that runs continuously when active
-- Mocks GPS location to specific coordinates (default: Google HQ)
+- Mocks GPS location to specific coordinates (default: Taipei, Taiwan)
 - Updates location every 2 seconds
 - Notification shown when service is running
 - Properly handles Android version differences
@@ -190,8 +190,8 @@ Required to run a foreground service that handles location. Android 14+ requires
 
 Edit `LocationMockService.kt` lines 23-24:
 ```kotlin
-private val mockLatitude = 37.4219999   // Replace with your latitude
-private val mockLongitude = -122.0840575 // Replace with your longitude
+private val mockLatitude = 25.002070   // Replace with your latitude
+private val mockLongitude = 121.544402 // Replace with your longitude
 ```
 
 ### Customizing Schedule

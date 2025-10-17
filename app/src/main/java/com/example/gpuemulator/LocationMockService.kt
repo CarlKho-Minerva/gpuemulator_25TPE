@@ -23,9 +23,9 @@ class LocationMockService : Service() {
     private var locationManager: LocationManager? = null
     private var timer: Timer? = null
     
-    // Default mock location - you can customize this
-    private val mockLatitude = 37.4219999  // Example: Google HQ
-    private val mockLongitude = -122.0840575
+    // Default mock location - No. 81號, Jingfeng St, Wenshan District, Taipei City, 116
+    private val mockLatitude = 25.002070
+    private val mockLongitude = 121.544402
     
     companion object {
         const val CHANNEL_ID = "LocationMockServiceChannel"
